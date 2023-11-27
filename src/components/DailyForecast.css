@@ -1,0 +1,38 @@
+/* DailyForecast.css */
+
+.card {
+  background-color: #f8f9fa0d;
+  border: 1px solid #dee2e6;
+  margin-bottom: 20px;
+  height: 250px; /* Adjusted height */
+  display: flex;
+  flex-direction: column; /* Adjusted to column layout */
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.card-title {
+  color: #007bff;
+  margin-bottom: 10px; /* Added margin for better spacing */
+}
+
+.card-text {
+  color: #495057; /* Adjusted text color for better visibility */
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  /* Styles for small screens (up to 576px) */
+  .card {
+    min-width: auto; /* Remove fixed width for small screens */
+    margin-right: 0; /* Remove right margin for better spacing on small screens */
+    height: 200px; /* Adjusted height for small screens */
+  }
+}
+
+  
